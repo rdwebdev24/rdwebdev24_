@@ -1,0 +1,41 @@
+.back{
+     gap: 4rem;
+}
+.skill_head{
+     font-size: 3.5rem;
+}
+.back img{
+     width: 100px;
+     height: 100px;
+}
+.skills{
+     flex-wrap: wrap;
+     width: 100%;
+     gap: 2rem;
+     max-width: 65rem;
+     display: flex;
+     justify-content: space-evenly;
+}
+.skill_box{
+     border: 1px solid cyan;
+     padding: 2rem;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+     flex-direction: column;
+     box-shadow: 0 0 10px 2px cyan;
+     animation: glow 5s infinite forwards;
+}
+
+@keyframes glow {
+     0%{
+          box-shadow: 0 0 10px 2px cyan;                                                 
+     }
+     50%{
+          box-shadow: 0 0 10px 5px cyan;
+     }
+     100%{
+          box-shadow: 0 0 10px 2px cyan;
+     }
+}

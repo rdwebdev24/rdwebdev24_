@@ -1,0 +1,116 @@
+.right {
+  gap: 2rem;
+}
+.project_wrapper {
+  align-self: flex-end;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project_card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.project_card img {
+  width: 100%;
+  height: 100%;
+}
+
+.github_livedemo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  gap: 1rem;
+  background: #000000d1;
+  transition: all 0.3s ease-in-out;
+}
+.project_btn,
+.project_info_btn {
+  padding: 1rem;
+  background: #000;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid cyan;
+  cursor: pointer;
+}
+.project_btn a {
+  color: #fff;
+}
+
+.modal {
+  padding: 2rem 1rem;
+  gap: 1rem;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 20rem;
+  width: 100%;
+  background: 333;
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  right: -50%;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  border: 1px solid cyan;
+  background: rgb(22, 22, 23);
+  display: flex;
+  visibility: hidden;
+}
+
+/* PROJECT ANIMATION  */
+.flip {
+     animation: flip 0.25s forwards;
+   }
+   
+   @keyframes flip {
+        100%{
+          right: -10%;
+        }
+   }
+
+.modal img {
+  width: 100%;
+  height: 100%;
+}
+.modal_btn {
+  padding: 0.5rem 1rem;
+  background: #000;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid cyan;
+  cursor: pointer;
+}
+.modal_btn a {
+  color: #fff;
+}
+
+.modal_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
