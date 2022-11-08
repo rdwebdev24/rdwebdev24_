@@ -14,10 +14,11 @@ let cursor = document.querySelector(".cursor");
 let  typeAudio = document.getElementById("myAudio")
 let  typeAudio2 = document.getElementById("myAudio2")
 typeAudio2.currentTime=2;
+typeAudio2.startDelay=3
 typeAudio2.play();
 
 
- 
+
 playbutton.addEventListener('click',()=>{
   playaudio.style.animation = "glow_audio 2s infinite forwards"
   playbutton.style.display = 'none'
