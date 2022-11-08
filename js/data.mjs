@@ -8,8 +8,8 @@ const data = [
 <div class="modal_info">
      <p>Responsive E-commerce websites using pure html , css , js </p>
      <div style="display:flex;gap:1rem;">
-          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories">github</a></button>
-          <button class="modal_btn "><a href="./404.html">live demo</a></button>
+          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories" target="_blank">github</a></button>
+          <button class="modal_btn "><a href="./404.html" target="_blank">live demo</a></button>
      </div>
 </div>`,
   },
@@ -24,8 +24,8 @@ const data = [
           javascript games like 2d snake , pong game , brick hti , flappy bird etc...
      </p>
      <div style="display:flex;gap:1rem;">
-          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories">github</a></button>
-          <button class="modal_btn "><a href="">live demo</a></button>
+          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories" target="_blank">github</a></button>
+          <button class="modal_btn "><a href="./404.html" target="_blank">live demo</a></button>
      </div>
 </div>`,
   },
@@ -40,8 +40,8 @@ const data = [
           todo-app using reactjs , nodejs and mongodb for database, useer can create an account and can add delete updated their day to day todo's
      </p>
      <div style="display:flex;gap:1rem;">
-          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories">github</a></button>
-          <button class="modal_btn "><a href="">live demo</a></button>
+          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories" target="_blank">github</a></button>
+          <button class="modal_btn "><a href="./404.html" target="_blank">live demo</a></button>
      </div>
 </div>`,
   },
@@ -54,8 +54,8 @@ const data = [
 <div class="modal_info">
      <p>student engagement detection using deep learning , this project detect whether the user is engaged in online class or not using facial landmark</p>
      <div style="display:flex;gap:1rem;" >
-          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories">github</a></button>
-          <button class="modal_btn "><a href="">live demo</a></button>
+          <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories" target="_blank">github</a></button>
+          <button class="modal_btn "><a href="./404.html" target="_blank">live demo</a></button>
      </div>
 </div>`,
   },
