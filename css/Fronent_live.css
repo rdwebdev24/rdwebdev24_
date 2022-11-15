@@ -2,6 +2,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+     transition: all 0.3s;
 }
 
 .frontend_wrapper{
@@ -26,6 +27,8 @@ h1{
 
 .projects_wrapper{
      max-width: 80vw;
+     transform-style: preserve-3d;
+     perspective: 700;
      width: 100%;
      display: flex;
      flex-wrap: wrap;
@@ -33,7 +36,6 @@ h1{
 }
 
 .project_card{
-     position: relative;
      cursor: pointer;
      display: flex;
      flex-direction: column;
@@ -48,7 +50,26 @@ h1{
      background:linear-gradient(#121111,#000);
      box-shadow: 0 4px 40px rgba(14, 161, 197, 0.15);
      transition: all 0.3s;
+     position: relative;
+     transform: rotateY(180deg) scale(0.7);
+     z-index: 9;
 }
+.temp{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: rgb(20, 20, 20);
+     transform: rotateY(180deg);
+     opacity: 1;
+     color: cyan;
+     transition: all 0.3s;
+     display: grid;
+     place-items: center;
+     font-size: 5rem;
+     font-weight: bold;
+}
+
+
 a{
      width: 100%;
      text-align: center;
@@ -61,9 +82,7 @@ a{
      border: 1px solid cyan;
 }
 
-
 .image img{
-     position: ansolute;
      width: 200px;
      height: 200px;
 }

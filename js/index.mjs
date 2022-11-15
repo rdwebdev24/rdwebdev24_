@@ -54,12 +54,12 @@ card.forEach((item,index)=>{
 
 
 project_card.forEach((item,index)=>{
-  item.addEventListener("mouseover",(e)=>{
-    github_livedemo[index].style.transform = 'translateY(0)'
-  })
-  item.addEventListener("mouseout",()=>{
-    github_livedemo[index].style.transform = 'translateY(100%)'
-  })
+  // item.addEventListener("mouseover",(e)=>{
+  //   github_livedemo[index].style.transform = 'translateY(0)'
+  // })
+  // item.addEventListener("mouseout",()=>{
+  //   github_livedemo[index].style.transform = 'translateY(100%)'
+  // })
 
   item.addEventListener('click',()=>{
     // modal.style.display = "flex";
@@ -99,6 +99,7 @@ btn.addEventListener("click", () => {
      swipe.style.display = "none";
      typeAudio.pause();
  }
+
 
  if(val==90 && typecnt==1){
   typeAudio.currentTime = 5

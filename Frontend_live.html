@@ -16,10 +16,10 @@
                          <img src="./assets/images/project1.jpeg" alt="error" >
                     </div>
                     <div class="detail">
-                         <p>HTML | CSS | JAVASCRIPT | ANIME.JS </p>
+                         <p>HTML | CSS | JAVASCRIPT | ANIMEJS </p>
                     </div>
                     <a href="https://e-commerce-omega-ten.vercel.app/" target="_blank">Live Demo</a>
-                    
+                    <div class="temp">1</div>
                </div>
                <div class="project_card">
                     <div class="image">
@@ -29,6 +29,7 @@
                          <p>REACTJS</p>
                     </div>
                     <a href="https://intern-project-4.vercel.app/" target="_blank">Live Demo</a>
+                    <div class="temp">2</div>
                </div>
                <div class="project_card">
                     <div class="image">
@@ -38,6 +39,7 @@
                          <p>REACTJS | SCSS </p>
                     </div>
                     <a href="https://vecros.vercel.app/" target="_blank">Live Demo</a>
+                    <div class="temp">3</div>
                     
                </div>
                <div class="project_card">
@@ -48,8 +50,33 @@
                          <p>HTML | CSS </p>
                     </div>
                     <a href="https://rdwebdev24.github.io/myTunesOFFicial.github.io/" target="_blank">Live Demo</a>
+                    <div class="temp">4</div>
                </div>
           </div>
      </div>
+
+     <script>
+          let project_card = document.querySelectorAll('.project_card');
+          let temp = document.querySelectorAll('.temp');
+
+          project_card.forEach((item,index)=>{
+               item.addEventListener('click',()=>{
+                    item.style.transform = "rotateY(0deg) scale(1)"
+               })
+               item.addEventListener('mouseleave',()=>{
+                    item.style.transform = "rotateY(180deg) scale(0.7)"
+               })
+          })
+                   
+          temp.forEach((item,index)=>{
+               item.addEventListener('click',()=>{
+                    item.style.opacity = "0"
+               })
+               item.addEventListener('mouseleave',()=>{
+                    item.style.opacity = "1"
+               })
+          })
+
+     </script>
 </body>
 </html>
