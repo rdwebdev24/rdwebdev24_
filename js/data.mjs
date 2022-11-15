@@ -4,12 +4,12 @@ const data = [
     info: `<div>
      <img src="../assets/images/ecommerce.jpg" alt="">
 </div>
-<h3>E-commerce websites</h3>
+<h3>Frontend projects</h3>
 <div class="modal_info">
      <p>Responsive E-commerce websites using pure html , css , js </p>
      <div style="display:flex;gap:1rem;">
           <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories" target="_blank">github</a></button>
-          <button class="modal_btn "><a href="./404.html" target="_blank">live demo</a></button>
+          <button class="modal_btn "><a href="./Frontend_live.html" target="_blank">live demo</a></button>
      </div>
 </div>`,
   },
