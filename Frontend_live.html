@@ -70,9 +70,11 @@
                    
           temp.forEach((item,index)=>{
                item.addEventListener('click',()=>{
+                    item.style.visibility = 'hidden'
                     item.style.opacity = "0"
                })
                item.addEventListener('mouseleave',()=>{
+                    item.style.visibility = 'visible'
                     item.style.opacity = "1"
                })
           })
