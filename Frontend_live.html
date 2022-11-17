@@ -62,22 +62,16 @@
           project_card.forEach((item,index)=>{
                item.addEventListener('click',()=>{
                     item.style.transform = "rotateY(0deg) scale(1)"
+                    temp[index].style.display = "none"
+                    temp[index].style.opacity = "0"
                })
                item.addEventListener('mouseleave',()=>{
                     item.style.transform = "rotateY(180deg) scale(0.7)"
+                    temp[index].style.opacity = "1"
+                    temp[index].style.display = "grid"
                })
           })
                    
-          temp.forEach((item,index)=>{
-               item.addEventListener('click',()=>{
-                    item.style.visibility = 'hidden'
-                    item.style.opacity = "0"
-               })
-               item.addEventListener('mouseleave',()=>{
-                    item.style.visibility = 'visible'
-                    item.style.opacity = "1"
-               })
-          })
 
      </script>
 </body>
