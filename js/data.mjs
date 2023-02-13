@@ -25,7 +25,7 @@ const data = [
      </p>
      <div style="display:flex;gap:1rem;">
           <button class="modal_btn "><a href="https://github.com/rdwebdev24?tab=repositories" target="_blank">github</a></button>
-          <button class="modal_btn "><a href="./404.html" target="_blank">live demo</a></button>
+          <button class="modal_btn "><a href="https://www.youtube.com/@makeitsimple247/videos" target="_blank">live demo</a></button>
      </div>
 </div>`,
   },
